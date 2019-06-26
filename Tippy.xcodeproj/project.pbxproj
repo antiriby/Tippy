@@ -15,6 +15,7 @@
 		688B754B22C2C0CF00259C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B754A22C2C0CF00259C50 /* main.m */; };
 		688B755522C2C0CF00259C50 /* TippyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B755422C2C0CF00259C50 /* TippyTests.m */; };
 		688B756022C2C0CF00259C50 /* TippyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688B755F22C2C0CF00259C50 /* TippyUITests.m */; };
+		688F129522C2E497003715F1 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688F129422C2E497003715F1 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		688B755B22C2C0CF00259C50 /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688B755F22C2C0CF00259C50 /* TippyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TippyUITests.m; sourceTree = "<group>"; };
 		688B756122C2C0CF00259C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688F129322C2E497003715F1 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		688F129422C2E497003715F1 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				688B753E22C2C0CE00259C50 /* ViewController.h */,
 				688B753F22C2C0CE00259C50 /* ViewController.m */,
 				688B754122C2C0CE00259C50 /* Main.storyboard */,
+				688F129322C2E497003715F1 /* SettingsViewController.h */,
+				688F129422C2E497003715F1 /* SettingsViewController.m */,
 				688B754422C2C0CF00259C50 /* Assets.xcassets */,
 				688B754622C2C0CF00259C50 /* LaunchScreen.storyboard */,
 				688B754922C2C0CF00259C50 /* Info.plist */,
@@ -264,6 +269,7 @@
 			files = (
 				688B754022C2C0CE00259C50 /* ViewController.m in Sources */,
 				688B754B22C2C0CF00259C50 /* main.m in Sources */,
+				688F129522C2E497003715F1 /* SettingsViewController.m in Sources */,
 				688B753D22C2C0CE00259C50 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
